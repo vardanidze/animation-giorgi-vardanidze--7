@@ -1,0 +1,84 @@
+body {
+    background-image: url("../img/titanic.jpg");
+    
+}
+
+.sumb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+    animation: move 10s infinite;
+    animation-direction: alternate-reverse;
+}
+
+.sh1 {
+    width: 150px;
+    height: 150px;
+    left: 1200px; 
+    top: 500px;
+    object-fit: cover;
+    position: relative;
+    animation: shark1 10s infinite;
+    animation-delay: 3s;
+
+
+}
+
+.sh2 {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    animation: shark2 10s infinite;
+    
+
+}
+
+.jelly {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    animation: jelly 10s infinite;
+
+}
+
+@keyframes jelly {
+    from {left: 0px; top: 500px;}
+    to {left: 0px; top: 0px;}
+}
+
+@keyframes shark2 {
+    from {left: 1000px; top: 500px;}
+    to {left: 0px; top: 0px;}
+}
+
+@keyframes shark1 {
+    from {left: 1200px; top: 500px;}
+    to {left: 0px; top: 500px;}
+}
+
+@keyframes move {
+    0%   {left: 200px; top: 500px;}
+    25%  {left: 900px; top: px;}
+    50%  { left: 200px; top: 200px;}
+    75%  { left: 1000px; top: 200px;}
+    100% { left: 800px; top: 0px;}
+
+}
+
+
+.rose {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+
+}
+
+
+
+
